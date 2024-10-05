@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+body {
+  background-color: #bbb188;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <figure class="card">
+          <img src="https://images.unsplash.com/photo-1511723991310-0e859b96b2e2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=86d395a3c6f6911d2747ca0c1e42fb56&auto=format&fit=crop&w=1350&q=80g" alt="Cappuccino" />
+          <div class="icons"><a><i class="ion-android-cart"></i></a><a><i class="ion-android-star"></i></a><a><i class="ion-android-share-alt"></i></a></div>
+          <figcaption>
+            <h3>Cappuccino</h3>
+            <div class="price">$3.25</div>
+          </figcaption>
+        </figure>
+        <figure class="card hover"><img src="https://images.unsplash.com/photo-1478192013110-1203b3616b75?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=63bb13db8f69837bc89c0ba5c63bf1d1&auto=format&fit=crop&w=1350&q=80" alt="Espresso" />
+          <div class="icons"><a><i class="ion-android-cart"></i></a><a><i class="ion-android-star"></i></a><a><i class="ion-android-share-alt"></i></a></div>
+          <figcaption>
+            <h3>Espresso</h3>
+            <div class="price">$3.50</div>
+          </figcaption>
+        </figure>
+        <figure class="card"><img src="https://images.unsplash.com/photo-1458819757519-7581bade511d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=64572ee0b13e28e430326f3257d0b070&auto=format&fit=crop&w=1352&q=80" alt="Cup of Tea" />
+          <div class="icons"><a><i class="ion-android-cart"></i></a><a><i class="ion-android-star"></i></a><a><i class="ion-android-share-alt"></i></a></div>
+          <figcaption>
+            <h3>English Tea</h3>
+            <div class="price">$2.00</div>
+          </figcaption>
+        </figure>
+      
+      </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script>
+        $(".hover").mouseleave(function () {
+  $(this).removeClass("hover");
+});
+
+      </script>
+</body>
+</html>
